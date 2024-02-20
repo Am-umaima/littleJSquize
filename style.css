@@ -1,0 +1,59 @@
+ul
+{
+	display:flex;
+	justify-content: space-between;
+	list-style:none;
+	padding-left: 0px;
+	margin-top: 0px;
+	font-weight:bolder;
+	padding: 10px;
+	
+}
+article
+{
+	padding: 10px;
+	padding-top:0px;
+	font-size: larger;
+}
+nav
+{
+	background-color: #cacaca;
+	display:flex;
+	justify-content: space-between;
+}
+ul span
+{
+	text-decoration:underline;
+}
+ul li a
+{
+	text-decoration: none;
+	color:black;
+	margin-right: 30px;
+}
+section
+{
+	background-color: beige;
+	border: 8px double brown;
+	width: 40%;
+	margin: auto;
+}
+div
+{
+	margin: auto;
+
+width: 80%;
+
+font-size: larger;
+}
+input[type="radio"]
+{margin-left: 25px;}
+a.exe
+{
+	margin-left: 40%;
+	padding: 30px;
+	font-weight: bold;
+	font-size: xx-large;
+	color:crimson;
+	text-decoration: overline underline;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>exercise 2 tp </title>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="javascript.js"></script>
+				
+	</head>
+	<body>
+		<section >
+			<header>
+				<nav>
+					<ul>
+						<li><a href="#"><span>F</span>ichier</a></li>
+						<li><a href="#"><span>E</span>dition</a></li>
+						<li><a href="#"><span>F</span>ffichage</a></li>
+						<li><a href="#">Fa<span>v</span>oire</a></li>
+						<li><a href="#"><span>O</span>utils</a></li>
+						<li><a href="#"><span>?</span></a></li>
+					</ul>
+					<img src="Capture.PNG" alt="windows">
+				</nav>
+			</header>	
+			<article>
+			<form name="formEX">
+				<p>Quelle est la mesure des angles d'un triangle equilateal ? </p>
+				<div>
+					<input type="radio" value="45" id="choix1">45°
+					<input type="radio" value="60" id="choix2">60°
+					<input type="radio" value="90" id="choix3">90°
+				</div>
+				<br/>
+				<input type="button" value="Verifier" name="verfier" onclick="verifier();">
+				<input type="text"  id="answer" readonly>
+				<input type="reset" onclick="Effacer();">
+			</form>
+			</article>
+		</section>
+		<a href="exe3.html" class="exe">Exercise 3</a>
+		
+	</body>
+</html>
